@@ -55,6 +55,10 @@ let package = Package(
             path: "GoogleMapsCore.xcframework"
         ),
         .binaryTarget(
+            name: "GoogleMapsM4B",
+            path: "GoogleMapsM4B.xcframework"
+        )
+        .binaryTarget(
             name: "GooglePlaces",
             path: "GooglePlaces.xcframework"
         )
